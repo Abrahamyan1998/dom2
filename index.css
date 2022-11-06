@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px;
+}
+nav h1 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 5px;
+}
+nav .row_top {
+  background-color: #C59D5F;
+  width: 80px;
+  height: 5px;
+  margin: 0 auto;
+}
+nav button {
+  border-radius: 10px;
+  border: 2px solid #C59D5F;
+  padding: 15px;
+  color: #C59D5F;
+  font-size: 16px;
+  margin: 6px 12px;
+}
+
+button:hover {
+  background-color: #C59D5F;
+  color: white;
+}
+
+section {
+  display: grid;
+  flex-direction: column;
+  gap: 40px;
+}
+section img {
+  border: 5px solid saddlebrown;
+  border-radius: 10px;
+}
+section .main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+section .main .main_line {
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+  display: flex;
+}
+section .main .main_line .string {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section .main .main_line .tegh2 {
+  display: flex;
+  letter-spacing: 3px;
+  justify-content: space-between;
+}/*# sourceMappingURL=index.css.map */
